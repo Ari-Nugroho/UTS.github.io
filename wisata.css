@@ -1,0 +1,85 @@
+.wrap{
+	background-color: white;
+	width: 1000px;
+	margin: 10px auto;
+	border: 2px solid #000000;
+	
+
+	
+}
+
+/*bagian header*/
+.wrap .header{
+	background-image: url(gmbr/brosur.jpg);
+	/*height: 50px;*/
+	font-family: arial;
+	padding: 4px 10px;
+	font-size: 30px;
+	font-style: italic;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background: transparent;
+
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: ;
+	background: transparent;
+	overflow: hidden;
+	background-color:lightgrey;
+	text-decoration: blink;
+	
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	text-decoration: blink;
+	padding: 10px;
+	margin: 1px;
+	border: 2px solid #000000;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: transparent;
+	float: left;	
+	width: 25%;
+	height: 100%;
+	border: 2px solid #000000;
+}
+
+/*akhir sidebar*/
+
+.wrap .badan .content{
+	background: transparent;
+	float: left;
+	height: 100%;
+	width: 60%;	
+	text-align: center;
+	text-align: justify;
+	margin: center;
+	border: 2px solid #000000;
+	margin-left: 50px;
+}
+body {
+	background-image: url(gmbr/kayu.jfif);
+}
+.wrap .footer{
+	background: transparent;
+	width: 100%;
+	padding: 30px;
+}
